@@ -1,0 +1,13 @@
+groups:
+- name: vms
+  targets:
+    - uri: 0.0.0.0:2222
+      name: target1
+    - uri: 0.0.0.0:2200
+      name: target2
+  config:
+    transport: ssh
+    ssh:
+      user: vagrant
+      host-key-check: false
+      run-as: root

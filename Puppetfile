@@ -1,0 +1,6 @@
+mod 'puppetlabs-stdlib', '6.3.0'
+mod 'puppetlabs/java_ks', '3.1.0'
+mod 'puppetlabs-augeas_core', '1.0.5'
+mod 'puppetlabs-java', '6.2.0'
+mod 'richardc/datacat', '0.6.2'
+mod 'puppet-elasticsearch', git: 'https://github.com/elastic/puppet-elasticsearch.git', ref: 'master'
